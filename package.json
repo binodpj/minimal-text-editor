@@ -22,7 +22,8 @@
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/binodpj/simple-text-editor"},
+    "url": "https://github.com/binodpj/minimal-text-editor"
+  },
   "peerDependencies": {
     "react": "^18.0.0",
     "@tiptap/react": "^2.0.0"
