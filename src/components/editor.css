@@ -1,0 +1,50 @@
+.editor-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 12px;
+  background: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.toolbar-button {
+  border: none;
+  background: #f3f3f3;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background 0.2s ease;
+}
+
+.toolbar-button:hover {
+  background: #e2e2e2;
+}
+
+.toolbar-button.active {
+  background: #ccc;
+  color: #333;
+}
+
+select.font-select {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
+
+.ProseMirror {
+  min-height: 200px;
+  outline: none;
+  font-size: 1rem;
+  line-height: 1.5;
+}
