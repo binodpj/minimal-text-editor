@@ -1,2 +1,2 @@
-import RichTextEditor from "./src/components/RichTextEditor";
-export { RichTextEditor };
+import TextEditor from "./src/components/RichTextEditor";
+export default TextEditor;

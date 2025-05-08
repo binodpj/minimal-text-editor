@@ -23,7 +23,7 @@ import {
 
 import "./editor.css";
 
-const RichTextEditor = ({ onChange }) => {
+const TextEditor = ({ onChange }) => {
   const editor = useEditor({
     extensions: [
       StarterKit,
@@ -192,4 +192,4 @@ const RichTextEditor = ({ onChange }) => {
   );
 };
 
-export default RichTextEditor;
+export default TextEditor;

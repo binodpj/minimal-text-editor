@@ -1,6 +1,6 @@
 {
   "name": "simple-text-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "files": [
@@ -12,9 +12,11 @@
     "build": "vite build"
   },
   "keywords": [
+    "minimal-text-editor",
+    "simple-text-editor",
+    "minimal text editor",
+    "text-editor",
     "tiptap",
-    "editor",
-    "react",
     "rich-text"
   ],
   "author": "",
